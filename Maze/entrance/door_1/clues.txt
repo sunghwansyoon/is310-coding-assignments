@@ -1,3 +1,0 @@
-Door 1 has a number of 6
-Door 2 has a number of 8
-Door 3 has a number of 4
