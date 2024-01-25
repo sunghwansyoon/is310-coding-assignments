@@ -1,0 +1,4 @@
+Pick greater numbers in this maze.
+
+Door 1 has a number of 10*1
+Door 2 has a number of 10/2

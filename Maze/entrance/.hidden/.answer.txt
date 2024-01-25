@@ -1,0 +1,1 @@
+Go Door_1 first, then Door_2. It will lead you to the exit.
