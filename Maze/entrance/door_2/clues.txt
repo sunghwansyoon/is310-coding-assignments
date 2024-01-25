@@ -1,0 +1,2 @@
+Door 1 has a value of 83994201 * 0 
+Door 2 has a value of 1 * 0
