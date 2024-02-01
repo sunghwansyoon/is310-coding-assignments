@@ -13,6 +13,7 @@
     <h1>This is Heading 1.</h1>
 
     <p id="demo"></p>
+    <button id="changeTextButton">Change Text</button>
 
     <div>
         <h2>
@@ -28,7 +29,16 @@
     </a>
 
     <script>
-        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        let isTextChanged = false;
+        document.getElementById("changeTextButton").addEventListener("click", function() {
+            if (!isTextChanged) {
+                document.getElementById("demo").innerHTML = "The text has been changed!";
+                isTextChanged = true;
+            } else {
+                document.getElementById("demo").innerHTML = "";
+                isTextChanged = false;
+            }
+        });
     </script>
 
 </body>
