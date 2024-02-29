@@ -13,7 +13,6 @@ def search_channel(id, api_key):
     response = requests.get(base_url, params=params)
     return response.json()
 
-apikey.save("google_api_key", "AIzaSyAHmKHdBin8mWvrX6g9xrJ1h4XviPGqdYM")
 api_key = apikey.load("google_api_key")
 id = "UCs6EwgxKLY9GG4QNUrP5hoQ"
 ch_data = search_channel(id, api_key)
