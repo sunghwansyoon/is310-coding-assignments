@@ -21,6 +21,6 @@ data_dir = 'api-getting-data/data'
 if not os.path.exists(data_dir):
     os.makedirs(data_dir)
 
-data_file = os.path.join(data_dir, 'my_data.txt')
-with open(data_file, 'w') as f:
+data_file = os.path.join(data_dir, 'my_data.json')
+with open(data_file, 'w', encoding='utf-8') as f:
     json.dump(ch_data, f, indent=2)
